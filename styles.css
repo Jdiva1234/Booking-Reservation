@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(246, 217, 88);
+    margin: 30px;
+    padding: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    box-sizing: border-box;
+    position: relative;
+    top: 50%;
+    left: 50%
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+input {
+    position: relative;
+    left: 5px;
+    size: 5px;
+}
+
+label {
+    position: relative;
+    left: auto;
+
+}
+
+fieldset {
+    background-color: rgb(212, 187, 77);
+    color: #fff;
+    max-width: 900px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 300px;
+}
+
+.animated-button {
+
+    padding: 12px 24px;
+    background-color: #f76f5d;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.animated-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.animated-button:hover:after {
+    width: 200%;
+    height: 200%;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.visa {
+    position: relative;
+    top: 15px;
+    right: 0px;
+}
+
+.amex {
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+.mastercard {
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+.container {
+    position: relative;
+    left: 12px;
+    size: 5px;
+}
+
+.container1 {
+    position: relative;
+    left: 4px;
+    size: 5px;
+}
+
+.container2 {
+    position: relative;
+    left: 15px;
+    size: 5px;
+}
